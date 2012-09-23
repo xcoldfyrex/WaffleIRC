@@ -1,0 +1,57 @@
+name: WaffleIRC
+main: com.cfdigital.waffleirc.WaffleIRC
+version: 1.8
+author: ColdFyre
+softdepend:
+  - Help
+  - Vault
+description: Waffle IRC
+commands:
+  irc:
+    description: Shows help for IRC shit
+    usage: /irc help
+  il:
+    description: Lists users on IRC channel
+    usage: /il
+    aliases: [irclist]
+  im:
+    description: Message person on IRC
+    usage: /im <person> <message>
+    aliases: [ircmsg]
+  ir:
+    description: Reply person on IRC
+    usage: /ir <message>
+    aliases: [ircreply]
+  ik:
+    description: Kick person on IRC
+    usage: /ik <person>
+    aliases: [irckick]
+  ii:
+    description: Ignore person on IRC
+    usage: /ii <person>
+    aliases: [ircignore]
+  ih:
+    description: Hide all IRC events
+    usage: /ih
+    aliases: [irchide]
+  ircreload:
+    description: Reload WaffleIRC configs
+    usage: /ircreload
+  ircrelink:
+    description: Attempts to relink WaffleIRC to the server
+    usage: /ircrelink
+  join:
+    description: Join new chat channel or activate previous one
+    usage: /join <channel>
+    aliases: [channel join]
+  part:
+    description: Part chat channel
+    usage: /part <channel>
+    aliases: [channel part]
+  lobby:
+    description: Return to lobby channel
+    usage: /lobby
+    aliases: [channel lobby]
+  channel:
+    description: Help menu for channels
+    usage: /channel
